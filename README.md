@@ -1,4 +1,4 @@
-# NSP advisories client [![Build Status](https://travis-ci.org/alanshaw/nsp-advisories-api.svg)](https://travis-ci.org/alanshaw/nsp-advisories-api)
+# NSP advisories client [![Build Status](https://travis-ci.org/alanshaw/nsp-advisories-api.svg)](https://travis-ci.org/alanshaw/nsp-advisories-api) [![Dependency Status](https://david-dm.org/alanshaw/nsp-advisories-api.svg)](https://david-dm.org/alanshaw/nsp-advisories-api)
 
 A Node.js client for the Node Security Project advisories API.
 
