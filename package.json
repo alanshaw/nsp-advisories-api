@@ -1,6 +1,6 @@
 {
   "name": "nsp-advisories-api",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Client for the NSP advisories API",
   "main": "index.js",
   "scripts": {
