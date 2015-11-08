@@ -26,8 +26,14 @@ NspAdvisoriesClient.prototype.advisories = function (opts, cb) {
       if (err) return cb(err)
       if (res.statusCode !== 200) return cb(buildError(res, body))
 
-      if (body && body.results) {
-        body.results = body.results.map(parseAdvisory)
+      if (body) {
+        body.total = parseInt(body.total, 10)
+        body.offset = parseInt(body.offset, 10)
+        body.count = parseInt(body.count, 10)
+
+        if (body.results) {
+          body.results = body.results.map(parseAdvisory)
+        }
       }
 
       cb(null, body)
